@@ -10,7 +10,8 @@ st.title("📊 Product Sales Analysis Dashboard")
 
 # --- Load Excel (hardcoded path from your notebook) ---
 file_path = r"C:\Users\SHAIK BASHEER\Downloads\sales_data_store1.xlsx"
-df = pd.read_excel(r"C:\Users\SHAIK BASHEER\Downloads\sales_data_store1.xlsx")
+df = pd.read_excel("sales_data_store1.xlsx")
+
 
 # --- Data Cleaning ---
 df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
@@ -125,4 +126,5 @@ fig_anim = px.bar(
 )
 fig_anim.update_layout(yaxis={'categoryorder':'total ascending'})
 st.plotly_chart(fig_anim, use_container_width=True)
+
 
