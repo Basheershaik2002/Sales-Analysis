@@ -19,14 +19,17 @@ Multi-Chart Support – Choose preferred visualization type.
 Business Insights – Detects trends and patterns.
 
 Project Structure
-bash
-Copy
-Edit
+
 Product_Salesdata/
+
 │── product_sales.py        # Main Streamlit app
+
 │── requirements.txt        # Dependencies
+
 │── sales_data_store1.xlsx  # Sample dataset (included in repo)
+
 │── README.md               # Documentation
+
 Installation & Setup
 
 Clone the repo
