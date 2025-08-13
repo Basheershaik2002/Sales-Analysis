@@ -27,23 +27,11 @@ Product_Salesdata/
 │── requirements.txt        # Dependencies
 │── sales_data_store1.xlsx  # Sample dataset (included in repo)
 │── README.md               # Documentation
-⚙Installation & Setup
+Installation & Setup
+
 Clone the repo
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/Product_Salesdata.git
-cd Product_Salesdata
-Install dependencies
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Run the app locally
 
-bash
-Copy
-Edit
 streamlit run product_sales.py
