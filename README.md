@@ -5,6 +5,8 @@ Product Sales Analysis Dashboard
 Overview
 This project is a Streamlit-based interactive dashboard for analyzing product sales data. It processes Excel datasets, generates key business insights, and provides dynamic visualizations to help track sales performance and trends. The dashboard is designed for business owners, analysts, and decision-makers to quickly visualize sales performance without needing technical expertise.
 
+Click here to view: (**https://drive.google.com/file/d/15YW7q_bUE6_DzQEn_3dRJi7a3lllEX9f/view?usp=sharing**)
+
 Features
 Automatic Data Loading – Reads sales data from a local Excel file (bundled with the app).
 
